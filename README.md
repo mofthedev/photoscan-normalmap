@@ -1,5 +1,6 @@
-# photoscan-normalmap
-Generating normal maps using both 'photometric stereo' and 'height map to normal map' methods
+Photoscan for normalmap
+==
+Generating normal maps using both ['photometric stereo'](https://en.wikipedia.org/wiki/Photometric_stereo) and 'height map to normal map' methods
 
 This Python code converts photometric stereo images like these:
 
@@ -16,3 +17,8 @@ to normal map textures like this:
 You can use just *hm2nm(img)* function to create a normal map from a single RGB image, or just *ps2nm(imgU, imgD, imgR, imgL)* to create more realistic normal maps, or combine them together to create normal maps with much more detailed edges.
 
 Also **overlay blend mode** is implemented to combine two normal maps.
+
+
+References
+--
+I was able to code these Python functions thanks to Ryan Clark who wrote [Normal Map Photography](http://www.zarria.net/nrmphoto/nrmphoto.html).
