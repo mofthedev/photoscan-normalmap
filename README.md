@@ -1,6 +1,6 @@
 Photoscan for normalmap
 ==
-Generating normal maps using both ['photometric stereo'](https://en.wikipedia.org/wiki/Photometric_stereo) and 'height map to normal map' methods
+Generating normal maps using both '[photometric stereo](https://en.wikipedia.org/wiki/Photometric_stereo)' and 'height map to normal map' methods
 
 This Python code converts photometric stereo images like these:
 
