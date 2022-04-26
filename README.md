@@ -14,7 +14,7 @@ to normal map textures like this:
 ![normalmap](https://user-images.githubusercontent.com/84385239/165281891-a7989a2c-9d74-4707-96c6-95bb3524c92c.png)
 
 
-You can use just *hm2nm(img)* function to create a normal map from a single RGB image, or just *ps2nm(imgU, imgD, imgR, imgL)* to create more realistic normal maps, or combine them together to create normal maps with much more detailed edges.
+You can use just ```hm2nm(img)``` function to create a normal map from a single RGB image, or just ```ps2nm(imgU, imgD, imgR, imgL)``` to create more realistic normal maps, or combine them together to create normal maps with much more detailed edges.
 
 Also **overlay blend mode** is implemented to combine two normal maps.
 
